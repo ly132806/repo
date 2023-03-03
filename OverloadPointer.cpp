@@ -39,7 +39,7 @@ public:
 	//重载⭐ 运算符
 	Person& operator*()
 	{
-		return *m_person;
+		return *this->m_person;
 	}
 
 	~SmartPoint()
